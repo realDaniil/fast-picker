@@ -1,3 +1,4 @@
+![Fast Picker Icon](./public/icon.png)
 # Fast Picker - Chrome Extension for Quick Color Selection from Any Site
 
 ## How to Get Started
