@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Fast Picker",
+  "version": "1.0",
+  "description": "Pick and save colors quickly.",
+  "permissions": ["clipboardWrite", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}

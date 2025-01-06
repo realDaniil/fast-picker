@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Picker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Fast Picker</h1>
+    <button id="pick-color">Pick color</button>
+    <div class="picked-colors">
+      <div class="color" data-color="#007bff" style="background: #007bff"></div>
+    </div>
+    <div class="last-color-and-mode-holder">
+      <div class="last-color-holder">
+        <p class="last-color">#007bff</p>
+      </div>
+      <button id="mode">hex</button>
+    </div>
+    <div class="copied-holder"></div>
+    <div class="close-on-pick-holder">
+      <label for="close-on-pick"> Close window on color pick </label>
+      <input type="checkbox" id="close-on-pick" />
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

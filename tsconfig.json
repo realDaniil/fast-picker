@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./public",
+    "rootDir": "./ts",
+    "strict": true,
+    "target": "ES6",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["ts/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

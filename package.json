@@ -1,0 +1,14 @@
+{
+  "name": "fact-picker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "https://github.com/realDaniil/",
+  "license": "MIT",
+  "description": "Chrome Extension for Quick Color Selection from Any Site",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}
